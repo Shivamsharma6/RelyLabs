@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RelyLabs</string>
+    <string name="button1">Add Song</string>
+    <string name="los">List Of Songs</string>
+    <string name="los2">Add song details below</string>
+    <string name="tit">Title</string>
+    <string name="des">Description</string>
+    <string name="sub">Submit</string>
+
+</resources>

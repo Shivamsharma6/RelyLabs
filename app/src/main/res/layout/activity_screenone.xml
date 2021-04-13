@@ -15,7 +15,12 @@
         android:layout_marginTop="42dp"
         android:layout_marginEnd="305dp"
         android:layout_marginRight="305dp"
+        android:layout_marginBottom="31dp"
         android:text="@string/los"
+
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,8 +40,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="41dp"
         android:layout_marginStart="157dp"
         android:layout_marginLeft="157dp"
         android:layout_marginTop="33dp"
@@ -44,6 +49,8 @@
         android:layout_marginRight="161dp"
         android:layout_marginBottom="45dp"
         android:text="@string/button1"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
